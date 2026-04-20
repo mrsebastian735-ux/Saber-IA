@@ -1,64 +1,65 @@
 # SaberIA 🎓🤖
 
-**SaberIA** es una plataforma de software educativo diseñada para potenciar el desempeño en las pruebas de Estado (SaberPRO) mediante el uso de **Inteligencia Artificial**, **analítica de datos** y un **enfoque basado en competencias**. 
+**SaberIA** es una plataforma de software educativo diseñada bajo la metodología **MODESEC** (Modelo de Diseño de Sesiones basado en Competencias), orientada a potenciar el desempeño en las pruebas **SaberPRO**. El sistema integra analítica de datos y gamificación para ofrecer una preparación académica adaptativa y resiliente.
 
-El proyecto transforma la preparación académica tradicional en una experiencia adaptativa, permitiendo identificar debilidades exactas en áreas del conocimiento y ofreciendo una retroalimentación dinámica que simula la complejidad de las pruebas reales.
+---
 
-## 🚀 ¿Qué propone SaberIA?
+## 🚀 Propuesta Basada en MODESEC
 
-La plataforma está diseñada para cerrar la brecha de preparación académica a través de:
+La plataforma implementa las fases del modelo para garantizar un aprendizaje significativo y una evaluación técnica válida:
 
-* **Diagnóstico por Competencias:** Clasificación estricta de preguntas (Componente, Afirmación y Evidencia) para medir habilidades exactas.
-* **Simulacros Resilientes:** Motor de exámenes con guardado automático y soporte para recursos multimedia (tablas, gráficas y código).
-* **Monitoreo Invisible:** Registro del tiempo de respuesta por pregunta para detectar patrones de dificultad en el estudiante.
-* **Gamificación Basada en Desempeño:** Sistema de puntos, niveles (Novato a Pro) y una tienda virtual de recompensas para incentivar la constancia.
-* **Retroalimentación Dinámica (IA):** Generación de recomendaciones personalizadas basadas en el índice de fallos por competencia.
-* **Dashboards para Docentes:** Herramientas de visualización para que los tutores identifiquen temas que requieren refuerzo grupal.
-* **Acceso Institucional:** Integración simplificada mediante correo universitario para trazabilidad por facultad y semestre.
+* **Identificación y Análisis de Competencias:** Clasificación de ítems según la jerarquía pedagógica: Competencia → Componente → Afirmación → Evidencia.
+* **Diseño de la Mediación (Simulacros):** Motor de exámenes con guardado automático ante fallos de conexión y soporte multimedia para análisis de gráficas, tablas y código.
+* **Monitoreo Invisible:** Registro interno del tiempo de respuesta por ítem para analizar ritmos de aprendizaje y detectar dificultades de lectura.
+* **Estrategia de Motivación (Gamificación):** Sistema de puntos, niveles (Novato a Pro), rachas diarias y una tienda virtual para incentivar la persistencia.
+* **Retroalimentación Formativa:** Diagnósticos dinámicos inmediatos que indican el área exacta de deficiencia para orientar el estudio autónomo de forma efectiva.
+
+---
 
 ## 📉 El Problema que abordamos
 
-En la educación superior, la preparación para las pruebas SaberPRO enfrenta retos críticos:
-1.  **Heterogeneidad en el aula:** Estudiantes con ritmos y bases de conocimiento muy distintos.
-2.  **Falta de diagnóstico profundo:** Los simulacros tradicionales dan un puntaje, pero no explican en qué competencia específica se falló.
-3.  **Desmotivación:** La ausencia de incentivos inmediatos reduce el compromiso del estudiante con el estudio autónomo.
+En línea con el diagnóstico de MODESEC, SaberIA resuelve las brechas críticas en la formación por competencias:
+1. **Heterogeneidad en los Ritmos:** Estudiantes con diversos niveles de desarrollo que requieren rutas personalizadas.
+2. **Falta de Diagnóstico Atómico:** Los simulacros tradicionales no desglosan el desempeño a nivel de afirmación y evidencia, dificultando la mejora específica.
+3. **Baja Motivación:** La ausencia de incentivos directos reduce el compromiso del estudiante con el aprendizaje constante.
 
-**SaberIA** actúa como un asistente tecnológico que personaliza la ruta de aprendizaje sin reemplazar la mediación pedagógica del docente.
+---
 
-## 🧠 Enfoque Pedagógico
+## 🧠 Enfoque Pedagógico (Pilares MODESEC)
 
-Nuestro modelo se fundamenta en cinco pilares clave extraídos de la normativa de evaluación nacional:
-* 🎯 **Personalización:** Rutas de estudio basadas en el historial previo del usuario.
-* 📊 **Unicidad del Diagnóstico:** Una pregunta mide una sola competencia para evitar diagnósticos viciados.
-* 🔄 **Evaluación Formativa:** Escalas de desempeño (1 al 4) alineadas con los estándares oficiales.
-* 📈 **Trazabilidad Real:** Seguimiento histórico de la evolución académica del estudiante.
-* 🤖 **Uso Ético de IA:** Aplicación de algoritmos para mejorar la calidad de las preguntas y la retroalimentación.
+SaberIA se fundamenta en los pilares del diseño instruccional moderno:
+* 🎯 **Personalización:** Rutas de aprendizaje adaptadas al historial y perfil de competencia del usuario.
+* 📊 **Unicidad del Ítem:** Una pregunta mide una única competencia para garantizar un diagnóstico técnico preciso y sin vicios.
+* 🔄 **Evaluación por Niveles:** Escalas de desempeño (1 al 4) alineadas con los niveles de complejidad y estándares oficiales.
+* 📈 **Trazabilidad de Procesos:** Seguimiento histórico que permite visualizar la evolución del conocimiento y la mejora académica en el tiempo.
+* 🤖 **Uso Ético de Datos:** Aplicación de algoritmos para la generación de recomendaciones personalizadas basadas en patrones de error identificados.
 
-## 🧪 Caso Piloto Inicial: Competencias Genéricas
+---
 
-Para la validación del sistema, hemos definido un escenario de prueba inicial:
+## 🧪 Validación del Modelo (Caso Piloto)
+
+El escenario inicial de validación se enfoca en competencias genéricas:
 * **Nivel:** Educación Superior (SaberPRO).
 * **Áreas:** Razonamiento Cuantitativo, Lectura Crítica y Competencias Ciudadanas.
-* **Objetivo:** Medir la mejora en los tiempos de respuesta y la precisión en la resolución de problemas tras recibir retroalimentación adaptativa.
+* **Objetivo:** Evaluar la mejora en la precisión y tiempos de respuesta tras la exposición a la retroalimentación basada en evidencias de desempeño.
+
+---
 
 ## 🛠️ Estado del Proyecto
 
-Actualmente, el proyecto se encuentra en **fase de diseño técnico y especificación**. 
-Contamos con:
-* **Modelo de Datos:** Estructura completa de base de datos que soporta gamificación, gestión de versiones y perfiles institucionales.
-* **Historias de Usuario:** Definición total de requerimientos (BAN, SIM, GAME, RET, PER).
-* **Arquitectura:** Diseño de microservicios para la gestión de exámenes y analítica.
+Actualmente, el proyecto se encuentra en **fase de diseño técnico y especificación documental**, contando con:
+* **Modelo de Datos:** Estructura relacional completa que soporta competencias, gamificación, gestión de versiones y perfiles institucionales.
+* **Historias de Usuario:** Requerimientos detallados con criterios de aceptación (BAN, SIM, GAME, RET, PER).
+* **Acceso Institucional:** Integración mediante correo universitario para asociar automáticamente programa, semestre y facultad.
 
-## 📄 Documentación Base
-
-La estructura documental del proyecto incluye:
-1.  Visión general del sistema y reglas de negocio.
-2.  Diccionario de datos completo.
-3.  Historias de usuario con criterios de aceptación.
-4.  Manual de identidad y gamificación.
+---
 
 ## 👥 Integrantes del Proyecto
-Danilo José Aguilar Quiroz
-Sebastián Andrés Lozano Ramos
-Sebastián David Argumedo Santana
-Radys Andres Ballesteros Ortiz
+
+* **Danilo José Aguilar Quiroz**
+* **Sebastián Andrés Lozano Ramos**
+* **Sebastián David Argumedo Santana**
+* **Radys Andres Ballesteros Ortiz**
+
+---
+*Proyecto desarrollado para el fortalecimiento de competencias académicas institucionales.*

@@ -59,7 +59,5 @@ Actualmente, el proyecto se encuentra en **fase de diseño técnico y especifica
 * **Danilo José Aguilar Quiroz**
 * **Sebastián Andrés Lozano Ramos**
 * **Sebastián David Argumedo Santana**
-* **Radys Andres Ballesteros Ortiz**
-
 ---
 *Proyecto desarrollado para el fortalecimiento de competencias académicas institucionales.*
